@@ -1,0 +1,18 @@
+{
+    "name": "burnbright/silverstripe-componenteditor",
+    "description": "Front-end component (DataObject) create/edit/delete control.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "frontend", "component", "editor"],
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        }
+    ],
+    "require": {
+	   "silverstripe/framework": "~3.1"
+    },
+     "extra": {
+        "installer-name": "componenteditor"
+    }
+}
