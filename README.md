@@ -26,6 +26,8 @@ Add the `EditComponentForm` inside your controller class:
 
 ## Troubleshooting / future work
 
+Make sure you implement the `canCreate` and `canEdit` and `canDelete` functions on your dataobject.
+
 Currently works best if your object (eg Testimonial) contains the has_one relationship, if you are wanting to join to the parent (eg Member). This is because the EditComponentForm only saves the object you are working on, rather than the parent.
 Swap your has_one, with your belongs_to to resolve saving issues.
 Alternatively, save and link the new object before passing to the form (could end up creating a lot of empty objects).
